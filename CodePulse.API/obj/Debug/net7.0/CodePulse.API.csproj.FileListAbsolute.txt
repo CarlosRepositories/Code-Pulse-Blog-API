@@ -160,3 +160,4 @@ C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\obj\
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\obj\Debug\net7.0\CodePulse.API.dll
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\obj\Debug\net7.0\refint\CodePulse.API.dll
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\obj\Debug\net7.0\CodePulse.API.pdb
+C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\obj\Debug\net7.0\CodePulse.API.sourcelink.json
