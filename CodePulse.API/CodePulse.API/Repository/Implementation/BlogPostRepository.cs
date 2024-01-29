@@ -26,5 +26,11 @@ namespace CodePulse.API.Repository.Implementation
             return await DbContext.BlogPosts
                 .Include(c => c.Categories).ToListAsync();
         }
+
+        public async Task<BlogPost> getById(Guid id)
+        {
+            return await DbContext.BlogPosts
+                .Include(c => c.Categories).FirstAsync(b => b.Id == id);
+        }
     }
 }
