@@ -10,13 +10,13 @@ namespace CodePulse.API.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ApplicationDbContext DbContext;
 
         private readonly ICategoryRepository _repository;
 
         public CategoriesController(ApplicationDbContext context, ICategoryRepository repository)
         {
-            _context = context;
+            DbContext = context;
             _repository = repository;
         }
 
@@ -29,7 +29,7 @@ namespace CodePulse.API.Controllers
                 UrlHandle = request.UrlHandle
             };
 
-            await _repository.CreateCategoryAsync(category);
+            await _repository.CreateAsync(category);
 
             var response = new CategoryDto()
             {
@@ -44,7 +44,7 @@ namespace CodePulse.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllCategories()
         {
-            var categories = await _repository.GetAllCategoriesAsync();
+            var categories = await _repository.GetAllAsync();
 
             var response = new List<CategoryDto>();
 
@@ -65,7 +65,7 @@ namespace CodePulse.API.Controllers
         [Route("{id:Guid}")]
         public async Task<IActionResult> GetCategoryById([FromRoute] Guid id)
         {
-            var category = await _repository.GetCategoryByIdAsync(id);
+            var category = await _repository.GetByIdAsync(id);
 
             if(category == null)
             {
@@ -93,7 +93,7 @@ namespace CodePulse.API.Controllers
                 UrlHandle = request.UrlHandle
             };
 
-            category = await _repository.UpdateCategoryAsync(category);
+            category = await _repository.UpdateAsync(category);
 
             if( category == null)
             {
@@ -114,7 +114,7 @@ namespace CodePulse.API.Controllers
         [Route("{id:Guid}")]
         public async Task<IActionResult> DeleteCategory([FromRoute] Guid id)
         {
-            var category = await _repository.DeleteCategoryAsync(id);
+            var category = await _repository.DeleteAsync(id);
 
             if(category == null)
             {

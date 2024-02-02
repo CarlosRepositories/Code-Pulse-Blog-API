@@ -7,57 +7,57 @@ namespace CodePulse.API.Repository.Implementation
 {
     public class CategoryRepository : ICategoryRepository
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ApplicationDbContext DbContext;
         public CategoryRepository(ApplicationDbContext applicationDbContext)
         {
-            _context = applicationDbContext;
+            DbContext = applicationDbContext;
         }
 
-        public async Task<Category> CreateCategoryAsync(Category category)
+        public async Task<Category> CreateAsync(Category category)
         {
-            await _context.Categories.AddAsync(category);
-            await _context.SaveChangesAsync();
+            await DbContext.Categories.AddAsync(category);
+            await DbContext.SaveChangesAsync();
 
             return category;
         }
 
-        public async Task<Category?> DeleteCategoryAsync(Guid id)
+        public async Task<Category?> DeleteAsync(Guid id)
         {
-            var existingCategory = await _context.Categories.FindAsync(id);
+            var existingCategory = await DbContext.Categories.FindAsync(id);
 
             if (existingCategory == null)
             {
                 return null;
             }
 
-            _context.Categories.Remove(existingCategory);
-            await _context.SaveChangesAsync();
+            DbContext.Categories.Remove(existingCategory);
+            await DbContext.SaveChangesAsync();
 
             return existingCategory;
         }
 
-        public async Task<IEnumerable<Category>> GetAllCategoriesAsync()
+        public async Task<IEnumerable<Category>> GetAllAsync()
         {
-            return await _context.Categories.ToListAsync();
+            return await DbContext.Categories.ToListAsync();
         }
 
-        public async Task<Category?> GetCategoryByIdAsync(Guid id)
+        public async Task<Category?> GetByIdAsync(Guid id)
         {
-            var category = await _context.Categories.FindAsync(id);
+            var category = await DbContext.Categories.FindAsync(id);
 
             return category;
 
         }
 
-        public async Task<Category?> UpdateCategoryAsync(Category category)
+        public async Task<Category?> UpdateAsync(Category category)
         {
-            var existingCategory = await _context.Categories
+            var existingCategory = await DbContext.Categories
                 .FirstOrDefaultAsync(c => c.Id == category.Id);
 
             if (existingCategory != null)
             {
-                _context.Entry(existingCategory).CurrentValues.SetValues(category);
-                _context.SaveChanges();
+                DbContext.Entry(existingCategory).CurrentValues.SetValues(category);
+                DbContext.SaveChanges();
                 return category;
             }
 
