@@ -4,13 +4,13 @@ namespace CodePulse.API.Repository.Interface
 {
     public interface ICategoryRepository
     {
-        Task<Category> CreateCategoryAsync(Category category);
-        Task<IEnumerable<Category>> GetAllCategoriesAsync();
+        Task<Category> CreateAsync(Category category);
+        Task<IEnumerable<Category>> GetAllAsync();
 
-        Task<Category?> GetCategoryByIdAsync(Guid id);
+        Task<Category?> GetByIdAsync(Guid id);
 
-        Task<Category?> UpdateCategoryAsync(Category category);
+        Task<Category?> UpdateAsync(Category category);
 
-        Task<Category?> DeleteCategoryAsync(Guid id);
+        Task<Category?> DeleteAsync(Guid id);
     }
 }
