@@ -10,13 +10,10 @@ namespace CodePulse.API.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        private readonly ApplicationDbContext DbContext;
-
         private readonly ICategoryRepository _repository;
 
-        public CategoriesController(ApplicationDbContext context, ICategoryRepository repository)
+        public CategoriesController(ICategoryRepository repository)
         {
-            DbContext = context;
             _repository = repository;
         }
 

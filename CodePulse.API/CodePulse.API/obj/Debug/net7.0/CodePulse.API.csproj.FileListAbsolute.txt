@@ -136,13 +136,14 @@ C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\Code
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\CodePulse.API.csproj.CoreCompileInputs.cache
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\CodePulse.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\CodePulse.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\CodePulse.API.sourcelink.json
+C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\staticwebassets\msbuild.CodePulse.API.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\staticwebassets\msbuild.build.CodePulse.API.props
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.CodePulse.API.props
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.CodePulse.API.props
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\scopedcss\bundle\CodePulse.API.styles.css
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\CodePulse.API.csproj.CopyComplete
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\CodePulse.API.dll
@@ -150,4 +151,3 @@ C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\Code
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\CodePulse.API.pdb
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\CodePulse.API.genruntimeconfig.cache
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\ref\CodePulse.API.dll
-C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\obj\Debug\net7.0\CodePulse.API.sourcelink.json
