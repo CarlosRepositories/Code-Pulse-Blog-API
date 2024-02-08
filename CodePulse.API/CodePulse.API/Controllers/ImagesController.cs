@@ -50,6 +50,36 @@ namespace CodePulse.API.Controllers
 
         }
 
+        [HttpGet]
+        public async Task<IActionResult> GetAllImages()
+        {
+            var blogImages =  await ImageRepository.GetAll();
+
+            if (blogImages is null)
+            {
+                return NotFound();
+            }
+
+            var blogImagesdto = new List<BlogImageDto>();
+
+            foreach(var blogImage in blogImages)
+            {
+                var blogImageDto = new BlogImageDto
+                {
+                    Id = blogImage.Id,
+                    Title = blogImage.Title,
+                    FileName = blogImage.FileName,
+                    FileExtension = blogImage.FileExtension,
+                    Url = blogImage.Url,
+                    DateCreated = blogImage.DateCreated
+                };
+
+                blogImagesdto.Add(blogImageDto);
+            }
+
+            return Ok(blogImagesdto);
+        }
+
         private void ValidateFileUploaded(IFormFile file)
         {
             var allowedExtensions = new string[] { ".jpg", ".jpeg", ".png" };
