@@ -60,7 +60,7 @@ namespace CodePulse.API.Controllers
                 return NotFound();
             }
 
-            var blogImagesdto = new List<BlogImageDto>();
+            var response = new List<BlogImageDto>();
 
             foreach(var blogImage in blogImages)
             {
@@ -74,10 +74,10 @@ namespace CodePulse.API.Controllers
                     DateCreated = blogImage.DateCreated
                 };
 
-                blogImagesdto.Add(blogImageDto);
+                response.Add(blogImageDto);
             }
 
-            return Ok(blogImagesdto);
+            return Ok(response);
         }
 
         private void ValidateFileUploaded(IFormFile file)
