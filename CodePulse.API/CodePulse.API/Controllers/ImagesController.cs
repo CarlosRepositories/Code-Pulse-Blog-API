@@ -28,7 +28,8 @@ namespace CodePulse.API.Controllers
                 {
                     FileExtension = Path.GetExtension(file.FileName).ToLower(),
                     FileName = fileName,
-                    Title = title
+                    Title = title,
+                    DateCreated = DateTime.Now
                 };
 
                 blogImage = await ImageRepository.Upload(file, blogImage);
