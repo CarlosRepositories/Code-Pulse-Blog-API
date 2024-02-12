@@ -34,7 +34,33 @@ namespace CodePulse.API.Migrations
 
                     b.HasIndex("CategoriesId");
 
-                    b.ToTable("BlogPostCategory", (string)null);
+                    b.ToTable("BlogPostCategory");
+                });
+
+            modelBuilder.Entity("CodePulse.API.Models.Domain.BlogImage", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("FileExtension")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Url")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("BlogImages");
                 });
 
             modelBuilder.Entity("CodePulse.API.Models.Domain.BlogPost", b =>
@@ -69,7 +95,7 @@ namespace CodePulse.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("BlogPosts", (string)null);
+                    b.ToTable("BlogPosts");
                 });
 
             modelBuilder.Entity("CodePulse.API.Models.Domain.Category", b =>
@@ -86,7 +112,7 @@ namespace CodePulse.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("BlogPostCategory", b =>
