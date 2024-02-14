@@ -31,7 +31,7 @@ namespace CodePulse.API.Repository.Implementation
         {
             var existingBlogPost = await DbContext.BlogPosts
                 .Include(c => c.Categories).FirstAsync(b => b.Id == id);
-            if(existingBlogPost == null) 
+            if (existingBlogPost == null)
             {
                 return null;
             }
@@ -44,7 +44,7 @@ namespace CodePulse.API.Repository.Implementation
                 .Include(x => x.Categories)
                 .FirstOrDefaultAsync(b => b.Id == blogPost.Id);
 
-            if(existingBlogPost is null)
+            if (existingBlogPost is null)
             {
                 return null;
             }
@@ -60,17 +60,31 @@ namespace CodePulse.API.Repository.Implementation
 
         public async Task<BlogPost?> DeleteAsync(Guid id)
         {
-            var existinBlogPost =  await DbContext.BlogPosts.Include(c => c.Categories)
+            var existinBlogPost = await DbContext.BlogPosts.Include(c => c.Categories)
                 .FirstOrDefaultAsync(b => b.Id == id);
 
-            if(existinBlogPost is not null)
+            if (existinBlogPost is not null)
             {
-               DbContext.BlogPosts.Remove(existinBlogPost);
-               await DbContext.SaveChangesAsync();
-               return existinBlogPost;
+                DbContext.BlogPosts.Remove(existinBlogPost);
+                await DbContext.SaveChangesAsync();
+                return existinBlogPost;
             }
 
-            return null; 
+            return null;
+        }
+
+        public async Task<BlogPost?> GetByUrlHandleAsync(string urlHandle)
+        {
+            var existingBlogPost = await DbContext.BlogPosts
+                .Include(c => c.Categories)
+                .FirstAsync(b => b.UrlHandle == urlHandle);
+
+            if (existingBlogPost == null)
+            {
+                return null;
+            }
+            return existingBlogPost;
+
         }
     }
 }
