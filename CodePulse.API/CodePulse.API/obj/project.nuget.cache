@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9MfVBHQOCvXOv3sGGkcdK9bHSrHNmNjj5KxQfvegBF8EzQiz5UB0RyYa/8M1b9yucE5cDKPAShKsugzWuB6Ejw==",
+  "dgSpecHash": "S/ACZKOBVGYjbNWcwXXGtejAnxkrO/uuFCGn6jPDp5RE9GxvzLSZYTYhk7KTz5RQT4t/aIz9E2UyXYx0Hk3f/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\carrl\\OneDrive\\Área de Trabalho\\estudos\\Angular\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj",
   "expectedPackageFiles": [
@@ -18,10 +18,10 @@
     "C:\\Users\\carrl\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.16\\microsoft.entityframeworkcore.7.0.16.nupkg.sha512",
     "C:\\Users\\carrl\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.16\\microsoft.entityframeworkcore.abstractions.7.0.16.nupkg.sha512",
     "C:\\Users\\carrl\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.16\\microsoft.entityframeworkcore.analyzers.7.0.16.nupkg.sha512",
-    "C:\\Users\\carrl\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.14\\microsoft.entityframeworkcore.design.7.0.14.nupkg.sha512",
+    "C:\\Users\\carrl\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.16\\microsoft.entityframeworkcore.design.7.0.16.nupkg.sha512",
     "C:\\Users\\carrl\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.16\\microsoft.entityframeworkcore.relational.7.0.16.nupkg.sha512",
     "C:\\Users\\carrl\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.14\\microsoft.entityframeworkcore.sqlserver.7.0.14.nupkg.sha512",
-    "C:\\Users\\carrl\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.14\\microsoft.entityframeworkcore.tools.7.0.14.nupkg.sha512",
+    "C:\\Users\\carrl\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.16\\microsoft.entityframeworkcore.tools.7.0.16.nupkg.sha512",
     "C:\\Users\\carrl\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\carrl\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\carrl\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",

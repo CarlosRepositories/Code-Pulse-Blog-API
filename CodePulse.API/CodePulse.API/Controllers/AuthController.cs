@@ -32,7 +32,7 @@ namespace CodePulse.API.Controllers
 
                 if(identityResult.Succeeded)
                 {
-                    return Ok(user);
+                    return Ok();
                 }
                 if (identityResult.Errors.Any())
                 {
