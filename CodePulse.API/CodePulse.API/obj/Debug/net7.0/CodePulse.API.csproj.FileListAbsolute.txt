@@ -84,6 +84,10 @@ C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\Code
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Humanizer.dll
+C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
@@ -93,6 +97,9 @@ C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\Code
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\carrl\OneDrive\Área de Trabalho\estudos\Angular\API\CodePulse.API\CodePulse.API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
