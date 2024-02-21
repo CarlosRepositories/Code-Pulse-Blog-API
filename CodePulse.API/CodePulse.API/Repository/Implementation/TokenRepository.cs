@@ -33,7 +33,7 @@ namespace CodePulse.API.Repository.Implementation
             var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(
-                issuer: Configuration["Issuer"],
+                issuer: Configuration["Jwt:Issuer"],
                 audience: Configuration["Jwt:Audience"],
                 claims: claims,
                 expires: DateTime.Now.AddMinutes(15),
